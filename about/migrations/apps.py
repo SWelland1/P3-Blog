@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class BlogConfig(AppConfig):
+class AboutConfig(AppConfig):
     """
-    Provides primary key type for blog app
+    Provides primary key type for about app
     """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'blog'
+    name = 'about'
